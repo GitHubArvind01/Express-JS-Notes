@@ -4,7 +4,7 @@ const pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js';
 
 // Specify the local PDF file URL
-const pdfUrl = 'Express JS.pdf'; // Local PDF file in the same folder
+const pdfUrl = 'Express JS-compressed.pdf'; // Local PDF file in the same folder
 const pdfCanvas = document.getElementById('pdf-canvas');
 const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
